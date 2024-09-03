@@ -38,9 +38,9 @@ const Footer = () => {
         <h4 class="font-semibold text-gray-700">Social Links</h4>
 
         <div className='flex gap-4 text-gray-600 my-5 text-2xl'>
-        <FaInstagram />
-        <FaSquareXTwitter/>
-        <FaFacebookF/>
+        <FaInstagram className='text-4xl hover:scale-105 hover:text-gray-400' />
+        <FaSquareXTwitter className='text-4xl hover:scale-105 hover:text-gray-400' />
+        <FaFacebookF className='text-4xl hover:scale-105 hover:text-gray-400' />
         </div>
 
       </div>
